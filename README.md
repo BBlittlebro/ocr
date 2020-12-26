@@ -9,4 +9,5 @@ img = Image.open(r'test1.png')
 text = pytesseract.image_to_string(img, lang='eng')
 print(text)
 
-###permissionError: [WinError 5] 存取被拒
+###permissionError: [WinError 5] 存取被拒(access deny)
+please help me to run it.
